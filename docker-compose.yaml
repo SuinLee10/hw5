@@ -2,7 +2,7 @@ version: "3.3"
 
 services:
   web:
-    image: ghcr.io/SuinLee10/hw5/main:latest
+    image: ghcr.io/shushu092523/hw5/main:latest
     container_name: pard
     environment:
       TZ: "Asia/Seoul"
