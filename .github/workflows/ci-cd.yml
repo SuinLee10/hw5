@@ -3,7 +3,7 @@ name: Pard CI / CD
 on:
   push:
     branches:
-      - main
+      - master
 
 env:
   REGISTRY_NAME: ghcr.io
