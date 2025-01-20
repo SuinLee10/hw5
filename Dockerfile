@@ -1,6 +1,6 @@
 FROM amazoncorretto:17-alpine
 
-ARG JAR_FILE=build/libs/hw6-0.0.1-SNAPSHOT.jar
+ARG JAR_FILE=build/libs/hw5-0.0.1-SNAPSHOT.jar
 
 COPY ${JAR_FILE} app.jar
 
